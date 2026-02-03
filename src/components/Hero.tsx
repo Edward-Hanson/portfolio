@@ -1,8 +1,11 @@
-import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 pt-16">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 pt-16"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 order-2 md:order-1">
@@ -17,7 +20,10 @@ const Hero = () => {
             </div>
 
             <p className="text-lg text-slate-600 leading-relaxed max-w-xl">
-              Experienced Backend Engineer with 2+ years building scalable enterprise applications using Java Spring and Python Django. Specialized in microservices architecture and event-driven systems.
+              Experienced Backend Engineer with 2+ years building scalable
+              enterprise applications using Java Spring and Python Django.
+              Specialized in microservices architecture and event-driven
+              systems.
             </p>
 
             <div className="space-y-3 text-slate-600">
@@ -31,7 +37,10 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={20} className="text-blue-600" />
-                <a href="mailto:ehanson787@gmail.com" className="hover:text-blue-600 transition-colors">
+                <a
+                  href="mailto:ehanson787@gmail.com"
+                  className="hover:text-blue-600 transition-colors"
+                >
                   ehanson787@gmail.com
                 </a>
               </div>
@@ -68,7 +77,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-blue-600 rounded-2xl transform rotate-6"></div>
               <div className="relative bg-white rounded-2xl p-2 shadow-2xl">
                 <img
-                  src="/image.png"
+                  src="/portfolio/image.png"
                   alt="Edward Hanson Mensah"
                   className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-xl"
                 />
