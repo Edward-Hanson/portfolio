@@ -77,7 +77,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-blue-600 rounded-2xl transform rotate-6"></div>
               <div className="relative bg-white rounded-2xl p-2 shadow-2xl">
                 <img
-                  src="/portfolio/image.png"
+                  src="/image.png"
                   alt="Edward Hanson Mensah"
                   className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-xl"
                 />
